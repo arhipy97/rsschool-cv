@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: aquamarine;
+    max-width: 1400px;
+}
+
+.header {
+    background-image: url("../img/image_2020-09-15_00-13-35.png");
+    background-size: cover;
+    display: flex;
+}
+
+.header__img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto 0 auto 15%;
+}
+
+.header__text{
+    color: bisque;
+    padding: 150px 0;
+    margin-left: 20%;
+}
+
+.header__text__position{
+    font-size: xx-large;
+}
+
+.header__text__name {
+    font-size: 250%;
+}
+
+.infoPage {
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+}
+
+.infoPage__left {
+    width: 35%;
+    background-color: white;
+}
+
+.infoPage__right {
+    width: 65%;
+    background-color: #D3D3D3;
+}
+
+h2 {
+    color:#0F0C3C;
+    margin: 15px 0;
+    padding: 0 80px;
+}
+
+p{
+    padding: 0 80px;
+}
